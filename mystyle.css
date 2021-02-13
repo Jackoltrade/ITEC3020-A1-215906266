@@ -1,0 +1,87 @@
+
+	header {
+		background-color: ForestGreen;
+		padding: 60px;
+	}
+
+	.logo {
+		float: left;
+		width: 25%;
+		height: 25%;
+	}
+	.texts {
+		font-size: 25px
+	}
+	.search {
+		width: 7%;
+		height: 7%;
+	}
+	.cart {
+		float: right;
+		width: 20%;
+		height: 20%;
+	}
+
+	nav {
+		 background-color: MediumSeaGreen;
+
+	}
+	.navbtn {
+		background-color: MediumSeaGreen;
+		border: none;
+		color: white;
+		padding: 20px 16px;
+		font-size: 20px;
+	}
+	.navbtn:hover {
+		background-color: ForestGreen;
+	}
+
+	.mainpic {
+		float: left;
+		width: 35%;
+	}
+
+	.detail {
+	    float: left;
+		padding: 20px;
+		width: 30%;
+	}
+	.add {
+		float: right;
+		width: 30%;
+		border: 1px solid black;
+		border-radius: 25px;
+		border-color: black;
+		padding: 10px;
+	}
+
+	.recommendation {
+		float: left;
+		width: 40%;
+		border: 1px solid black;
+		border-radius: 10px;
+		border-color: black;
+		padding: 30px;
+	}
+	.similaritems {
+		width: 30%;
+		height: 30%;
+	}
+
+
+	table.characteristics {
+				 float: right;
+		border-collapse: collapse;
+		width: 50%;
+	}
+	td, th {
+		border: 1px solid MediumSeaGreen;
+		text-align: left;
+		padding: 8px;
+	}
+	
+	tr:nth-child(even) {
+		background-color: MediumSeaGreen;
+	}
+
